@@ -4,6 +4,15 @@ assign their values according to your own country (population in millions)
 
 2. Log their values to the console
 
+
+Solution:
+let country = 'Portugal';
+ let continent = 'Europe';
+ let population = 10;
+ console.log(country);
+ console.log(continent);
+ console.log(population);
+
 ============================================================================
 LECTURE: Data Types
 1. Declare a variable called 'isIsland' and set its value according to your
@@ -13,4 +22,14 @@ country. The variable should hold a Boolean value. Also declare a variable
 to the console
 
 
+LECTURE: Data Types
+ let isIsland = false;
+ let language;
+ console.log(typeof isIsland);
+ console.log(typeof population);
+ console.log(typeof country);
+ console.log(typeof language);
 =============================================================================
+
+
+
