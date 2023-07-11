@@ -6,7 +6,7 @@ console.log(Boolean(NaN));
 console.log(Boolean({}));
 console.log(Boolean(''));
 
-const money ='';
+const money ='mkjbkj';
 if(money){
     console.log("Dont spend it all")
 }
