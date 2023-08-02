@@ -20,6 +20,9 @@ const age =19;
 const drink = age >=18 ? 'wine 🍷 ' :"milk 🥛";
 console.log(drink);
 
+
+
+
 // if(age>=18){
 //     console.log("wine 🍷")
 // }

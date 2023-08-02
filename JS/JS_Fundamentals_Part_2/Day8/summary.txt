@@ -1,0 +1,9 @@
+1]Arrays
+-A container where we store same type of data which is separated by comma
+
+*creating arrays, access arrays , count size of array
+*we can change the array element value but we have said we cant change variables declared with const value 
+but we cant change primitive data type and array is mutable a so we can change it
+*methods on array
+push,unshift,pop,shift,includes,indexOf, length
+

@@ -1,4 +1,5 @@
 
+console.log(9+8);
 // Number 
 
 let length = 4;
