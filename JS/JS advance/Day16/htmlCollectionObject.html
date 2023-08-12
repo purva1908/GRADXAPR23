@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            p{
+                height: 100px;
+                width: 100px;
+                border: 1px solid black;
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        
+    <p>object 1</p>
+    <p>object 2</p>
+    <p>object 3</p>
+    <p>object 4</p>
+    <p>object 5</p>
+    <p>object 6</p>
+    <p>object 7</p>
+    <p>object 8</p>
+       
+        <script>
+          const myCollection = document.getElementsByTagName("p");
+       for (let i = 0; i < myCollection.length; i++) {
+        if(i%2==0){
+            myCollection[i].style.color = "red";
+        }
+    
+        else{
+            myCollection[i].style.color = "green";
+        }
+    } 
+        </script>
+    </body>
+</html>

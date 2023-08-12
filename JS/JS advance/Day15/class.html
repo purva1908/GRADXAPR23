@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+  <!-- finding html elements using class name -->
+
+  <h2>JS html dom</h2>
+
+  <p>Finding elements by class name</p>
+  <p class="intro">hello </p>
+  <p class="intro">ex of class name</p>
+
+  <p id="demo"></p>
+        
+        <script>
+
+        const x=document.getElementsByClassName("intro");
+        document.getElementById("demo").innerHTML='the first para is:'+ x[1].innerHTML;
+
+
+        </script>
+    </body>
+</html>

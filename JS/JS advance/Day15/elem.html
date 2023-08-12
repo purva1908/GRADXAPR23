@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!-- finding element with id -->
+        <!-- <p id="demo"></p> -->
+
+        <!-- finding element with tag name -->
+        <!-- <p >this is h1 heading</p>
+        <p>this is para</p>
+        <p id="demo"></p> -->
+        <!-- finding element with class name -->
+
+
+        <div id="main">
+            <p>Finding html elements by tag name</p>
+            <p>This example demonstrates the <b>getElementsByTagName</b>method.</p>
+        </div>
+
+        <p id="demo"></p>
+        
+        <script >
+        //  1
+        //  document.getElementById("demo").innerHTML= "Prayag";
+        //   document.getElementByTagName("h1").innerText="this is heading";
+// 2
+        // const element=document.getElementsByTagName("p");
+        // document.getElementById("demo").innerHTML='the text in first paragraph which is having id demo is:' + element[1].innerHTML;
+
+        // 3
+        const x = document.getElementById("main")
+        const y = x.getElementsByTagName("p");
+
+        document.getElementById("demo").innerHTML = 'the first para inside main is:'+y[2].innerHTML;
+
+
+        </script>
+    </body>
+</html>
