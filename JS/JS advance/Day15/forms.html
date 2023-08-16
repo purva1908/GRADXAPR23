@@ -22,20 +22,17 @@
         <input type="text" name="lname" value="MAnkar">
         <br>
 
-        <input type="submit" value="submit">
+        <input type="submit">
        </form>
-
        <p id="demo"></p>
-        
-        <script >
-
-
+          
+    <script >
 const x =document.forms["frm"];
 console.log(x.value);
 
-
-for(let i=o;i<x.length;i++){
-    let text = "";
+let text = "";
+for(let i=0;i<x.length;i++){
+    
     text+=x.elements[i].value + "<br>";
 }
 

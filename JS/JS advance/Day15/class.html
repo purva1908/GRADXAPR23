@@ -16,14 +16,17 @@
 
   <p>Finding elements by class name</p>
   <p class="intro">hello </p>
-  <p class="intro">ex of class name</p>
+  <p class="intro">welcome</p>
 
   <p id="demo"></p>
+  <p id="demo1"></p>
         
         <script>
-
+        // selecting paragraphs having intro as class
         const x=document.getElementsByClassName("intro");
-        document.getElementById("demo").innerHTML='the first para is:'+ x[1].innerHTML;
+
+        document.getElementById("demo").innerHTML='the first para is:'+ x[0].innerHTML;
+        document.getElementById("demo1").innerHTML='the second para is:'+ x[1].innerHTML;
 
 
         </script>
